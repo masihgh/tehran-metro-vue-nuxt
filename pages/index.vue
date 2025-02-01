@@ -1,3 +1,5 @@
-<script setup lang="ts">
-const appConfig = useAppConfig()
-</script>
+<template>
+  <div>
+    <h1>Welcome to the homepage</h1>
+  </div>
+</template>
