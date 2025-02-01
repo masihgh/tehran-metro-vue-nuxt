@@ -20,4 +20,10 @@ export default defineNuxtConfig({
     exposeConfig: false,
     editorSupport: true,
   },
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false,
+    },
+  ],
 });

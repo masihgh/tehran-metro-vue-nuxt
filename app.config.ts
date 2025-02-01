@@ -1,10 +1,7 @@
 export default defineAppConfig({
-    title: 'Hello Nuxt',
-    theme: {
-      dark: true,
-      colors: {
-        primary: '#ff0000'
-      }
-    }
-  })
-  
+  title: "Tehran Metro Vue", // Define the title here
+  ui: {
+    primary: "yellow", // Primary color
+    gray: "cool", // Gray color scheme
+  },
+});
